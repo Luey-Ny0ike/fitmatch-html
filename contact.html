@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitmatch</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/logo.png" alt="Logo" class="nav-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Legal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-dark btn-subscribe rounded-pill" name="button">Subscribe</button>
+    </div>
+  </nav>
+  <div class="main-body">
+    <div class="container row main-content-c">
+      <div class="col-md-8 offset-md-3 card">
+        <div class="card-body">
+          <h3 class="title-c">Get in touch</h3>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-12">
+              <p>Leave Us a message</p>
+              <form class="form" action="index.html" method="post">
+                <label for="Name">Name</label>
+                <input type="text" name="name" value="" class="form-control">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" name="email" value="" class="form-control"><br>
+                <textarea name="message" rows="8" cols="80" placeholder="Your Message" class="form-control"></textarea>
+                <button type="button" class="btn btn-large contact-button" name="button">Send</button>
+              </form>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12">
+              <p style="visibility:hidden">.</p>
+              <p><img src="assets/images/icons/location.png" alt="Location icon"> Arizona, USA</p><br>
+              <p><img src="assets/images/icons/phone.png" alt="Phone icon"> 602.456.5903</p><br>
+              <p><img src="assets/images/icons/email.png" alt="Email icon"> hello@info.com.ng</p><br>
+              <p><img src="assets/images/icons/instagram.png" alt="Instagram icon"> &nbsp; <img src="assets/images/icons/facebook.png" alt="facebook icon"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer container row">
+      <div class="col-md-4 col-sm-4 col-12">
+        <img src="assets/images/apple-logo.png" alt="Footer Logo" class="footer-logo">
+        <img src="assets/images/android-logo.png" alt="Footer Logo" class="footer-logo">
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script src="assets/index.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" charset="utf-8"></script>
+</body>
+
+</html>

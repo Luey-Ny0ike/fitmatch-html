@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+body {
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: transparent;
+  font-family: 'Work Sans', sans-serif;
+}
+.nav-logo {
+  max-width: 45px;
+  max-height: 45px;
+}
+.nav-link {
+  color: white !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+.btn-subscribe {
+
+}
+nav.scroll {
+  background-color: black;
+}
+
+/* MAIN BODY */
+.main-body {
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 150px;
+  background: linear-gradient(164.11deg, rgba(0, 246, 255, 0.95) 10.27%, rgba(34, 73, 69, 0.95) 88.92%), url('images/bg-image-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - );
+}
+.main-content {
+  color: white;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+/* ABOUT PAGE */
+.title-a {
+  font-weight: 700;
+  color: black;
+}
+.sub-white {
+  color: white;
+}
+.all-content {
+  text-align: right;
+  color: white;
+  padding-top: 35px;
+}
+
+/* CONTACT PAGE */
+.title-c {
+  text-align: center;
+  color: #5CE1E6;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  padding-bottom: 20px;
+}
+
+.main-content-c {
+  padding-bottom: 20px;
+  color: black;
+}
+.contact-button {
+  margin-top: 15px;
+  background-color: #5CE1E6 !important;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.footer-logo {
+  max-width: 100px;
+}
